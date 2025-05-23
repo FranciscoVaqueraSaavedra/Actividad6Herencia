@@ -11,7 +11,7 @@ public:
         if (operando2 != 0)
             return operando1 / operando2;
         else
-            return 0; // o lanzar excepción
+            return 0; 
     }
 };
 
