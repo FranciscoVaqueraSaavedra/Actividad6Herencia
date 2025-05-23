@@ -9,9 +9,9 @@ protected:
 public:
     Operacion(double op1, double op2) : operando1(op1), operando2(op2) {}
 
-    // Método virtual para sobrescribir
+    
     virtual double calcular() {
-        return 0.0;  // Por defecto no hace nada
+        return 0.0;  
     }
 };
 
